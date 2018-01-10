@@ -10,13 +10,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".view.SlideActivity" />
+        <activity android:name=".activityanim.ActivityAnimActivity" />
+        <activity android:name=".activityanim.SecondActivity" />
+        <activity android:name=".activityanim.ThirdActivity" />
+        <activity android:name=".activityanim.FourActivity" />
+        <activity android:name=".activityanim.FiveActivity" />
+        <activity android:name=".view.SwipeActivity"></activity>
     </application>
 
 </manifest>

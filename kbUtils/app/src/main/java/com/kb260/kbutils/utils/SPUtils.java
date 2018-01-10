@@ -5,6 +5,9 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v4.util.SimpleArrayMap;
+
+import com.kb260.kbutils.app.KbApplication;
+
 import java.util.Collections;
 import java.util.Map;
 import java.util.Set;
@@ -49,7 +52,7 @@ public final class SPUtils {
     }
 
     private SPUtils(final String spName) {
-        sp = KBApplication.getAppContext().getSharedPreferences(spName, Context.MODE_PRIVATE);
+        sp = KbApplication.getAppContext().getSharedPreferences(spName, Context.MODE_PRIVATE);
     }
 
     /**
